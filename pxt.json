@@ -1,0 +1,41 @@
+{
+    "name": "fightboard-repo",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "pxt-scaling": "github:jwunderl/pxt-scaling#v0.1.0",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.0.1",
+        "arcade-block-objects": "github:microsoft/arcade-block-objects#f486ac1d4dcc096b9297174f97f8cdef1576c7ff",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-text": "github:pelikhan/arcade-image-text#v0.0.4",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.1.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "ColorBlock": "github:UnsignedArduino/ColorBlock#ac7b9500e40045cf1ddd8c5b7481d11bcb317f5f",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.ts",
+        "images.g.jres",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "tiles-data.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}

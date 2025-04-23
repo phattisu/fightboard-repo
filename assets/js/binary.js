@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.53/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"2.0.53","repo":"phatisena/fightboard-repo"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.53/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.1.0","target":"arcade","targetVersion":"2.0.53","repo":"phatisena/fightboard-repo"}
 // total=3376107 new=25.85% cached=70.10% other=4.05%
 (function (ectx) {
 'use strict';
@@ -669,7 +669,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P37611(s) {
+function _main___P37828(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1649,13 +1649,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P37611.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/ColorBlock/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P37611.continuations = [  ]
+_main___P37828.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/ColorBlock/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P37828.continuations = [  ]
 
-function _main___P37611_mk(s) {
+function _main___P37828_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P37611, depth: s.depth + 1,
+        parent: s, fn: _main___P37828, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3940,8 +3940,8 @@ switch (step) {
   case 0:
 
     s.value___11038 = undefined;
-    s.unnamed406___U1 = undefined;
-    s.unnamed407___U2 = undefined;
+    s.unnamed482___U1 = undefined;
+    s.unnamed483___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -4082,15 +4082,15 @@ switch (step) {
   case 19:
     r0 = s.retval;
     s.value___11038 = (undefined);
-    s.unnamed406___U1 = (globals.LeaderBoardRankList___5327);
-    s.unnamed407___U2 = (0);
+    s.unnamed482___U1 = (globals.LeaderBoardRankList___5327);
+    s.unnamed483___U2 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed407___U2;
-    r0 = pxsim_Array__length(s.unnamed406___U1);
+    s.tmp_0 = r0 = s.unnamed483___U2;
+    r0 = pxsim_Array__length(s.unnamed482___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed406___U1, s.unnamed407___U2);
+    r0 = pxsim_Array__getAt(s.unnamed482___U1, s.unnamed483___U2);
     s.value___11038 = (r0);
     s.tmp_3 = r0 = globals.index___5322;
     r0 = pxsim_Array__length(globals.LeaderBoardList___5340);
@@ -4149,11 +4149,11 @@ switch (step) {
   case 5:
     r0 = (globals.index___5322 + 1);
     globals.index___5322 = (r0);
-    r0 = (s.unnamed407___U2 + 1);
-    s.unnamed407___U2 = (r0);
+    r0 = (s.unnamed483___U2 + 1);
+    s.unnamed483___U2 = (r0);
     { step = 3; continue; }
   case 6:
-    s.unnamed406___U1 = (undefined);
+    s.unnamed482___U1 = (undefined);
   case 7:
   case 8:
     r0 = undefined;
@@ -4178,8 +4178,8 @@ function inline__P10987_mk(s) {
   tmp_8: undefined,
   tmp_9: undefined,
   value___11038: undefined,
-  unnamed406___U1: undefined,
-  unnamed407___U2: undefined,
+  unnamed482___U1: undefined,
+  unnamed483___U2: undefined,
   arg0: undefined,
 } }
 
@@ -4649,11 +4649,11 @@ switch (step) {
   case 0:
 
     s.value2___9585 = undefined;
-    s.unnamed392___U1 = undefined;
-    s.unnamed393___U2 = undefined;
+    s.unnamed468___U1 = undefined;
+    s.unnamed469___U2 = undefined;
     s.value___9588 = undefined;
-    s.unnamed394___U4 = undefined;
-    s.unnamed395___U5 = undefined;
+    s.unnamed470___U4 = undefined;
+    s.unnamed471___U5 = undefined;
     s.tmp_0 = r0 = globals.StartSetup___5375;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 1; continue; }
@@ -4669,15 +4669,15 @@ switch (step) {
     r0 = pxsim_String_.mkEmpty();
     globals.Str___5351 = (r0);
     s.value2___9585 = (undefined);
-    s.unnamed392___U1 = (globals.PlayerDice___5353);
-    s.unnamed393___U2 = (0);
+    s.unnamed468___U1 = (globals.PlayerDice___5353);
+    s.unnamed469___U2 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed393___U2;
-    r0 = pxsim_Array__length(s.unnamed392___U1);
+    s.tmp_0 = r0 = s.unnamed469___U2;
+    r0 = pxsim_Array__length(s.unnamed468___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 18; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed392___U1, s.unnamed393___U2);
+    r0 = pxsim_Array__getAt(s.unnamed468___U1, s.unnamed469___U2);
     s.value2___9585 = (r0);
     s.value___9588 = (undefined);
     s.tmp_0 = sprites_allOfKind__P2292_mk(s);
@@ -4685,15 +4685,15 @@ switch (step) {
     s.callLocIdx = 252; s.pc = 21; return s.tmp_0;
   case 21:
     r0 = s.retval;
-    s.unnamed394___U4 = (r0);
-    s.unnamed395___U5 = (0);
+    s.unnamed470___U4 = (r0);
+    s.unnamed471___U5 = (0);
   case 4:
-    s.tmp_0 = r0 = s.unnamed395___U5;
-    r0 = pxsim_Array__length(s.unnamed394___U4);
+    s.tmp_0 = r0 = s.unnamed471___U5;
+    r0 = pxsim_Array__length(s.unnamed470___U4);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 17; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed394___U4, s.unnamed395___U5);
+    r0 = pxsim_Array__getAt(s.unnamed470___U4, s.unnamed471___U5);
     s.value___9588 = (r0);
     s.tmp_3 = r0 = s.value2___9585;
     s.tmp_5 = sprites_readDataNumber__P5024_mk(s);
@@ -5123,16 +5123,16 @@ switch (step) {
   case 14:
   case 15:
   case 16:
-    r0 = (s.unnamed395___U5 + 1);
-    s.unnamed395___U5 = (r0);
+    r0 = (s.unnamed471___U5 + 1);
+    s.unnamed471___U5 = (r0);
     { step = 4; continue; }
   case 17:
-    s.unnamed394___U4 = (undefined);
-    r0 = (s.unnamed393___U2 + 1);
-    s.unnamed393___U2 = (r0);
+    s.unnamed470___U4 = (undefined);
+    r0 = (s.unnamed469___U2 + 1);
+    s.unnamed469___U2 = (r0);
     { step = 3; continue; }
   case 18:
-    s.unnamed392___U1 = (undefined);
+    s.unnamed468___U1 = (undefined);
     s.tmp_0 = fancyText_setText__P4803_mk(s);
     s.tmp_0.arg0 = globals.TextNameSprite___5349;
     s.tmp_0.arg1 = globals.Str___5351;
@@ -5199,11 +5199,11 @@ function TextStateUpdate__P5272_mk(s) {
   tmp_32: undefined,
   tmp_33: undefined,
   value2___9585: undefined,
-  unnamed392___U1: undefined,
-  unnamed393___U2: undefined,
+  unnamed468___U1: undefined,
+  unnamed469___U2: undefined,
   value___9588: undefined,
-  unnamed394___U4: undefined,
-  unnamed395___U5: undefined,
+  unnamed470___U4: undefined,
+  unnamed471___U5: undefined,
 } }
 
 
@@ -12968,8 +12968,8 @@ switch (step) {
   case 0:
 
     s.value___11696 = undefined;
-    s.unnamed426___U1 = undefined;
-    s.unnamed427___U2 = undefined;
+    s.unnamed502___U1 = undefined;
+    s.unnamed503___U2 = undefined;
     globals.index___5322 = (0);
     s.value___11696 = (undefined);
     s.tmp_0 = sprites_allOfKind__P2292_mk(s);
@@ -12977,15 +12977,15 @@ switch (step) {
     s.callLocIdx = 715; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    s.unnamed426___U1 = (r0);
-    s.unnamed427___U2 = (0);
+    s.unnamed502___U1 = (r0);
+    s.unnamed503___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed427___U2;
-    r0 = pxsim_Array__length(s.unnamed426___U1);
+    s.tmp_0 = r0 = s.unnamed503___U2;
+    r0 = pxsim_Array__length(s.unnamed502___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed426___U1, s.unnamed427___U2);
+    r0 = pxsim_Array__getAt(s.unnamed502___U1, s.unnamed503___U2);
     s.value___11696 = (r0);
     s.tmp_2 = sprites_setDataNumber__P5022_mk(s);
     s.tmp_2.arg0 = s.value___11696;
@@ -13009,11 +13009,11 @@ switch (step) {
     r0 = s.retval;
     r0 = (globals.index___5322 + 1);
     globals.index___5322 = (r0);
-    r0 = (s.unnamed427___U2 + 1);
-    s.unnamed427___U2 = (r0);
+    r0 = (s.unnamed503___U2 + 1);
+    s.unnamed503___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed426___U1 = (undefined);
+    s.unnamed502___U1 = (undefined);
     r0 = (globals.Max_player___5370 + -1);
     globals.Max_player___5370 = (r0);
     r0 = (globals.Trun___5359 % globals.Max_player___5370);
@@ -13040,8 +13040,8 @@ function Get_re_player_ID__P5311_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   value___11696: undefined,
-  unnamed426___U1: undefined,
-  unnamed427___U2: undefined,
+  unnamed502___U1: undefined,
+  unnamed503___U2: undefined,
 } }
 
 
@@ -22752,8 +22752,8 @@ switch (step) {
   case 0:
 
     s.value___11256 = undefined;
-    s.unnamed414___U1 = undefined;
-    s.unnamed415___U2 = undefined;
+    s.unnamed490___U1 = undefined;
+    s.unnamed491___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -22765,15 +22765,15 @@ switch (step) {
     s.callLocIdx = 619; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    s.unnamed414___U1 = (r0);
-    s.unnamed415___U2 = (0);
+    s.unnamed490___U1 = (r0);
+    s.unnamed491___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed415___U2;
-    r0 = pxsim_Array__length(s.unnamed414___U1);
+    s.tmp_0 = r0 = s.unnamed491___U2;
+    r0 = pxsim_Array__length(s.unnamed490___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed414___U1, s.unnamed415___U2);
+    r0 = pxsim_Array__getAt(s.unnamed490___U1, s.unnamed491___U2);
     s.value___11256 = (r0);
     s.tmp_3 = r0 = s.arg0;
     s.tmp_6 = Sprite_tilemapLocation__P2439_mk(s);
@@ -22810,11 +22810,11 @@ switch (step) {
     { step = 7; continue; }
   case 4:
   case 5:
-    r0 = (s.unnamed415___U2 + 1);
-    s.unnamed415___U2 = (r0);
+    r0 = (s.unnamed491___U2 + 1);
+    s.unnamed491___U2 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed414___U1 = (undefined);
+    s.unnamed490___U1 = (undefined);
     s.tmp_12 = spriteutils_nullConsts__P5097_mk(s);
     s.tmp_12.arg0 = 0;
     s.callLocIdx = 624; s.pc = 11; return s.tmp_12;
@@ -22845,8 +22845,8 @@ function Get_player_on_tile__P5303_mk(s) {
   tmp_11: undefined,
   tmp_12: undefined,
   value___11256: undefined,
-  unnamed414___U1: undefined,
-  unnamed415___U2: undefined,
+  unnamed490___U1: undefined,
+  unnamed491___U2: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
@@ -23881,8 +23881,8 @@ switch (step) {
   case 0:
 
     s.value___10189 = undefined;
-    s.unnamed398___U1 = undefined;
-    s.unnamed399___U2 = undefined;
+    s.unnamed474___U1 = undefined;
+    s.unnamed475___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -23894,15 +23894,15 @@ switch (step) {
     s.callLocIdx = 388; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    s.unnamed398___U1 = (r0);
-    s.unnamed399___U2 = (0);
+    s.unnamed474___U1 = (r0);
+    s.unnamed475___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed399___U2;
-    r0 = pxsim_Array__length(s.unnamed398___U1);
+    s.tmp_0 = r0 = s.unnamed475___U2;
+    r0 = pxsim_Array__length(s.unnamed474___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed398___U1, s.unnamed399___U2);
+    r0 = pxsim_Array__getAt(s.unnamed474___U1, s.unnamed475___U2);
     s.value___10189 = (r0);
     s.tmp_3 = r0 = s.arg0;
     s.tmp_6 = Sprite_tilemapLocation__P2439_mk(s);
@@ -23939,11 +23939,11 @@ switch (step) {
     { step = 7; continue; }
   case 4:
   case 5:
-    r0 = (s.unnamed399___U2 + 1);
-    s.unnamed399___U2 = (r0);
+    r0 = (s.unnamed475___U2 + 1);
+    s.unnamed475___U2 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed398___U1 = (undefined);
+    s.unnamed474___U1 = (undefined);
     s.tmp_12 = spriteutils_nullConsts__P5097_mk(s);
     s.tmp_12.arg0 = 0;
     s.callLocIdx = 393; s.pc = 11; return s.tmp_12;
@@ -23974,8 +23974,8 @@ function Get_item_on_tile__P5284_mk(s) {
   tmp_11: undefined,
   tmp_12: undefined,
   value___10189: undefined,
-  unnamed398___U1: undefined,
-  unnamed399___U2: undefined,
+  unnamed474___U1: undefined,
+  unnamed475___U2: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
@@ -24320,23 +24320,23 @@ switch (step) {
   case 0:
 
     s.value___11645 = undefined;
-    s.unnamed424___U1 = undefined;
-    s.unnamed425___U2 = undefined;
+    s.unnamed500___U1 = undefined;
+    s.unnamed501___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
     }
     globals.Count___5312 = (0);
     s.value___11645 = (undefined);
-    s.unnamed424___U1 = (s.arg0);
-    s.unnamed425___U2 = (0);
+    s.unnamed500___U1 = (s.arg0);
+    s.unnamed501___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed425___U2;
-    r0 = pxsim_Array__length(s.unnamed424___U1);
+    s.tmp_0 = r0 = s.unnamed501___U2;
+    r0 = pxsim_Array__length(s.unnamed500___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed424___U1, s.unnamed425___U2);
+    r0 = pxsim_Array__getAt(s.unnamed500___U1, s.unnamed501___U2);
     s.value___11645 = (r0);
     s.tmp_4 = r0 = globals.TileMapGridList___5362;
     s.tmp_6 = GetTiledAt__P5305_mk(s);
@@ -24366,11 +24366,11 @@ switch (step) {
     globals.Count___5312 = (r0);
   case 2:
   case 3:
-    r0 = (s.unnamed425___U2 + 1);
-    s.unnamed425___U2 = (r0);
+    r0 = (s.unnamed501___U2 + 1);
+    s.unnamed501___U2 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed424___U1 = (undefined);
+    s.unnamed500___U1 = (undefined);
     s.tmp_1 = r0 = globals.Count___5312;
     r0 = pxsim_Array__length(s.arg0);
     s.tmp_2 = r0;
@@ -24406,8 +24406,8 @@ function FindStucked__P5309_mk(s) {
   tmp_9: undefined,
   tmp_10: undefined,
   value___11645: undefined,
-  unnamed424___U1: undefined,
-  unnamed425___U2: undefined,
+  unnamed500___U1: undefined,
+  unnamed501___U2: undefined,
   arg0: undefined,
 } }
 
@@ -24483,11 +24483,11 @@ switch (step) {
   case 0:
 
     s.value2___10679 = undefined;
-    s.unnamed402___U1 = undefined;
-    s.unnamed403___U2 = undefined;
+    s.unnamed478___U1 = undefined;
+    s.unnamed479___U2 = undefined;
     s.value___10682 = undefined;
-    s.unnamed404___U4 = undefined;
-    s.unnamed405___U5 = undefined;
+    s.unnamed480___U4 = undefined;
+    s.unnamed481___U5 = undefined;
     s.index___10793 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
@@ -24511,15 +24511,15 @@ switch (step) {
   case 39:
     r0 = s.retval;
     s.value2___10679 = (undefined);
-    s.unnamed402___U1 = (globals.PlayerDice___5353);
-    s.unnamed403___U2 = (0);
+    s.unnamed478___U1 = (globals.PlayerDice___5353);
+    s.unnamed479___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed403___U2;
-    r0 = pxsim_Array__length(s.unnamed402___U1);
+    s.tmp_0 = r0 = s.unnamed479___U2;
+    r0 = pxsim_Array__length(s.unnamed478___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 8; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed402___U1, s.unnamed403___U2);
+    r0 = pxsim_Array__getAt(s.unnamed478___U1, s.unnamed479___U2);
     s.value2___10679 = (r0);
     s.value___10682 = (undefined);
     s.tmp_0 = sprites_allOfKind__P2292_mk(s);
@@ -24527,15 +24527,15 @@ switch (step) {
     s.callLocIdx = 481; s.pc = 40; return s.tmp_0;
   case 40:
     r0 = s.retval;
-    s.unnamed404___U4 = (r0);
-    s.unnamed405___U5 = (0);
+    s.unnamed480___U4 = (r0);
+    s.unnamed481___U5 = (0);
   case 2:
-    s.tmp_0 = r0 = s.unnamed405___U5;
-    r0 = pxsim_Array__length(s.unnamed404___U4);
+    s.tmp_0 = r0 = s.unnamed481___U5;
+    r0 = pxsim_Array__length(s.unnamed480___U4);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 7; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed404___U4, s.unnamed405___U5);
+    r0 = pxsim_Array__getAt(s.unnamed480___U4, s.unnamed481___U5);
     s.value___10682 = (r0);
     s.tmp_3 = r0 = s.value2___10679;
     s.tmp_5 = sprites_readDataNumber__P5024_mk(s);
@@ -24632,18 +24632,18 @@ switch (step) {
   case 4:
   case 5:
   case 6:
-    r0 = (s.unnamed405___U5 + 1);
-    s.unnamed405___U5 = (r0);
+    r0 = (s.unnamed481___U5 + 1);
+    s.unnamed481___U5 = (r0);
     { step = 2; continue; }
   case 7:
-    s.unnamed404___U4 = (undefined);
+    s.unnamed480___U4 = (undefined);
     r0 = (globals.index___5322 + 1);
     globals.index___5322 = (r0);
-    r0 = (s.unnamed403___U2 + 1);
-    s.unnamed403___U2 = (r0);
+    r0 = (s.unnamed479___U2 + 1);
+    s.unnamed479___U2 = (r0);
     { step = 1; continue; }
   case 8:
-    s.unnamed402___U1 = (undefined);
+    s.unnamed478___U1 = (undefined);
     r0 = pxsim_numops_toBoolDecr(s.arg2);
     if (!r0) { step = 37; continue; }
     s.tmp_0 = helpers_imageFillRect__P1961_mk(s);
@@ -25052,11 +25052,11 @@ function RenderStatus__P5296_mk(s) {
   tmp_16: undefined,
   tmp_17: undefined,
   value2___10679: undefined,
-  unnamed402___U1: undefined,
-  unnamed403___U2: undefined,
+  unnamed478___U1: undefined,
+  unnamed479___U2: undefined,
   value___10682: undefined,
-  unnamed404___U4: undefined,
-  unnamed405___U5: undefined,
+  unnamed480___U4: undefined,
+  unnamed481___U5: undefined,
   index___10793: undefined,
   arg0: undefined,
   arg1: undefined,
@@ -36119,8 +36119,8 @@ switch (step) {
   case 0:
 
     s.value___9898 = undefined;
-    s.unnamed396___U1 = undefined;
-    s.unnamed397___U2 = undefined;
+    s.unnamed472___U1 = undefined;
+    s.unnamed473___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -36131,15 +36131,15 @@ switch (step) {
     s.callLocIdx = 311; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    s.unnamed396___U1 = (r0);
-    s.unnamed397___U2 = (0);
+    s.unnamed472___U1 = (r0);
+    s.unnamed473___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed397___U2;
-    r0 = pxsim_Array__length(s.unnamed396___U1);
+    s.tmp_0 = r0 = s.unnamed473___U2;
+    r0 = pxsim_Array__length(s.unnamed472___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed396___U1, s.unnamed397___U2);
+    r0 = pxsim_Array__getAt(s.unnamed472___U1, s.unnamed473___U2);
     s.value___9898 = (r0);
     r0 = pxsim_Array__getAt(globals.PlayerDice___5353, s.arg0);
     s.tmp_3 = r0;
@@ -36158,11 +36158,11 @@ switch (step) {
     { step = 5; continue; }
   case 2:
   case 3:
-    r0 = (s.unnamed397___U2 + 1);
-    s.unnamed397___U2 = (r0);
+    r0 = (s.unnamed473___U2 + 1);
+    s.unnamed473___U2 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed396___U1 = (undefined);
+    s.unnamed472___U1 = (undefined);
     s.tmp_6 = spriteutils_nullConsts__P5097_mk(s);
     s.tmp_6.arg0 = 0;
     s.callLocIdx = 313; s.pc = 8; return s.tmp_6;
@@ -36187,8 +36187,8 @@ function Get_player_on_trun__P5277_mk(s) {
   tmp_5: undefined,
   tmp_6: undefined,
   value___9898: undefined,
-  unnamed396___U1: undefined,
-  unnamed397___U2: undefined,
+  unnamed472___U1: undefined,
+  unnamed473___U2: undefined,
   arg0: undefined,
 } }
 
@@ -37210,21 +37210,21 @@ switch (step) {
   case 0:
 
     s.value3___11415 = undefined;
-    s.unnamed416___U1 = undefined;
-    s.unnamed417___U2 = undefined;
+    s.unnamed492___U1 = undefined;
+    s.unnamed493___U2 = undefined;
     s.value3___11425 = undefined;
-    s.unnamed418___U4 = undefined;
-    s.unnamed419___U5 = undefined;
+    s.unnamed494___U4 = undefined;
+    s.unnamed495___U5 = undefined;
     s.value3___11433 = undefined;
-    s.unnamed420___U7 = undefined;
-    s.unnamed421___U8 = undefined;
+    s.unnamed496___U7 = undefined;
+    s.unnamed497___U8 = undefined;
     s.J___11450 = undefined;
     s.I___11463 = undefined;
     s.J___11474 = undefined;
     s.J___11544 = undefined;
     s.value3___11575 = undefined;
-    s.unnamed422___U14 = undefined;
-    s.unnamed423___U15 = undefined;
+    s.unnamed498___U14 = undefined;
+    s.unnamed499___U15 = undefined;
     s.tmp_0 = Setup_asset__P5273_mk(s);
     s.callLocIdx = 656; s.pc = 27; return s.tmp_0;
   case 27:
@@ -37240,15 +37240,15 @@ switch (step) {
     s.callLocIdx = 658; s.pc = 28; return s.tmp_0;
   case 28:
     r0 = s.retval;
-    s.unnamed416___U1 = (r0);
-    s.unnamed417___U2 = (0);
+    s.unnamed492___U1 = (r0);
+    s.unnamed493___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed417___U2;
-    r0 = pxsim_Array__length(s.unnamed416___U1);
+    s.tmp_0 = r0 = s.unnamed493___U2;
+    r0 = pxsim_Array__length(s.unnamed492___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed416___U1, s.unnamed417___U2);
+    r0 = pxsim_Array__getAt(s.unnamed492___U1, s.unnamed493___U2);
     s.value3___11415 = (r0);
     s.tmp_2 = tiles_setDataNumber__P5445_mk(s);
     s.tmp_2.arg0 = s.value3___11415;
@@ -37257,11 +37257,11 @@ switch (step) {
     s.callLocIdx = 659; s.pc = 30; return s.tmp_2;
   case 30:
     r0 = s.retval;
-    r0 = (s.unnamed417___U2 + 1);
-    s.unnamed417___U2 = (r0);
+    r0 = (s.unnamed493___U2 + 1);
+    s.unnamed493___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed416___U1 = (undefined);
+    s.unnamed492___U1 = (undefined);
     s.value3___11425 = (undefined);
     s.tmp_0 = tiles_getTilesByType__P2792_mk(s);
     s.tmp_1 = helpers_getTileByName__P3371_mk(s);
@@ -37273,15 +37273,15 @@ switch (step) {
     s.callLocIdx = 661; s.pc = 31; return s.tmp_0;
   case 31:
     r0 = s.retval;
-    s.unnamed418___U4 = (r0);
-    s.unnamed419___U5 = (0);
+    s.unnamed494___U4 = (r0);
+    s.unnamed495___U5 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed419___U5;
-    r0 = pxsim_Array__length(s.unnamed418___U4);
+    s.tmp_0 = r0 = s.unnamed495___U5;
+    r0 = pxsim_Array__length(s.unnamed494___U4);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed418___U4, s.unnamed419___U5);
+    r0 = pxsim_Array__getAt(s.unnamed494___U4, s.unnamed495___U5);
     s.value3___11425 = (r0);
     s.tmp_2 = tiles_setDataNumber__P5445_mk(s);
     s.tmp_2.arg0 = s.value3___11425;
@@ -37290,11 +37290,11 @@ switch (step) {
     s.callLocIdx = 662; s.pc = 33; return s.tmp_2;
   case 33:
     r0 = s.retval;
-    r0 = (s.unnamed419___U5 + 1);
-    s.unnamed419___U5 = (r0);
+    r0 = (s.unnamed495___U5 + 1);
+    s.unnamed495___U5 = (r0);
     { step = 3; continue; }
   case 4:
-    s.unnamed418___U4 = (undefined);
+    s.unnamed494___U4 = (undefined);
     s.value3___11433 = (undefined);
     s.tmp_0 = tiles_getTilesByType__P2792_mk(s);
     s.tmp_1 = helpers_getTileByName__P3371_mk(s);
@@ -37306,15 +37306,15 @@ switch (step) {
     s.callLocIdx = 664; s.pc = 34; return s.tmp_0;
   case 34:
     r0 = s.retval;
-    s.unnamed420___U7 = (r0);
-    s.unnamed421___U8 = (0);
+    s.unnamed496___U7 = (r0);
+    s.unnamed497___U8 = (0);
   case 5:
-    s.tmp_0 = r0 = s.unnamed421___U8;
-    r0 = pxsim_Array__length(s.unnamed420___U7);
+    s.tmp_0 = r0 = s.unnamed497___U8;
+    r0 = pxsim_Array__length(s.unnamed496___U7);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 8; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed420___U7, s.unnamed421___U8);
+    r0 = pxsim_Array__getAt(s.unnamed496___U7, s.unnamed497___U8);
     s.value3___11433 = (r0);
     s.tmp_3 = tiles_tileAtLocationEquals__P2787_mk(s);
     s.tmp_4 = tiles_Location_getNeighboringLocation__P2725_mk(s);
@@ -37349,11 +37349,11 @@ switch (step) {
     r0 = s.retval;
   case 6:
   case 7:
-    r0 = (s.unnamed421___U8 + 1);
-    s.unnamed421___U8 = (r0);
+    r0 = (s.unnamed497___U8 + 1);
+    s.unnamed497___U8 = (r0);
     { step = 5; continue; }
   case 8:
-    s.unnamed420___U7 = (undefined);
+    s.unnamed496___U7 = (undefined);
     r0 = pxsim_Array__mk();
     globals.TileMapGridList___5362 = (r0);
     s.J___11450 = (0);
@@ -37541,15 +37541,15 @@ switch (step) {
     s.callLocIdx = 683; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
-    s.unnamed422___U14 = (r0);
-    s.unnamed423___U15 = (0);
+    s.unnamed498___U14 = (r0);
+    s.unnamed499___U15 = (0);
   case 25:
-    s.tmp_0 = r0 = s.unnamed423___U15;
-    r0 = pxsim_Array__length(s.unnamed422___U14);
+    s.tmp_0 = r0 = s.unnamed499___U15;
+    r0 = pxsim_Array__length(s.unnamed498___U14);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 26; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed422___U14, s.unnamed423___U15);
+    r0 = pxsim_Array__getAt(s.unnamed498___U14, s.unnamed499___U15);
     s.value3___11575 = (r0);
     s.tmp_2 = tiles_setTileAt__P2782_mk(s);
     s.tmp_2.arg0 = s.value3___11575;
@@ -37562,11 +37562,11 @@ switch (step) {
     s.callLocIdx = 685; s.pc = 55; return s.tmp_2;
   case 55:
     r0 = s.retval;
-    r0 = (s.unnamed423___U15 + 1);
-    s.unnamed423___U15 = (r0);
+    r0 = (s.unnamed499___U15 + 1);
+    s.unnamed499___U15 = (r0);
     { step = 25; continue; }
   case 26:
-    s.unnamed422___U14 = (undefined);
+    s.unnamed498___U14 = (undefined);
     s.tmp_0 = RenderTile__P5288_mk(s);
     s.callLocIdx = 686; s.pc = 57; return s.tmp_0;
   case 57:
@@ -37593,21 +37593,21 @@ function Ground_setup__P5307_mk(s) {
   tmp_7: undefined,
   tmp_8: undefined,
   value3___11415: undefined,
-  unnamed416___U1: undefined,
-  unnamed417___U2: undefined,
+  unnamed492___U1: undefined,
+  unnamed493___U2: undefined,
   value3___11425: undefined,
-  unnamed418___U4: undefined,
-  unnamed419___U5: undefined,
+  unnamed494___U4: undefined,
+  unnamed495___U5: undefined,
   value3___11433: undefined,
-  unnamed420___U7: undefined,
-  unnamed421___U8: undefined,
+  unnamed496___U7: undefined,
+  unnamed497___U8: undefined,
   J___11450: undefined,
   I___11463: undefined,
   J___11474: undefined,
   J___11544: undefined,
   value3___11575: undefined,
-  unnamed422___U14: undefined,
-  unnamed423___U15: undefined,
+  unnamed498___U14: undefined,
+  unnamed499___U15: undefined,
 } }
 
 
@@ -37626,8 +37626,8 @@ switch (step) {
 
     s.index___10363 = undefined;
     s.locval___10422 = undefined;
-    s.unnamed400___U2 = undefined;
-    s.unnamed401___U3 = undefined;
+    s.unnamed476___U2 = undefined;
+    s.unnamed477___U3 = undefined;
     s.index___10363 = (0);
   case 1:
     s.tmp_1 = r0 = s.index___10363;
@@ -37723,15 +37723,15 @@ switch (step) {
     s.callLocIdx = 426; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
-    s.unnamed400___U2 = (r0);
-    s.unnamed401___U3 = (0);
+    s.unnamed476___U2 = (r0);
+    s.unnamed477___U3 = (0);
   case 5:
-    s.tmp_0 = r0 = s.unnamed401___U3;
-    r0 = pxsim_Array__length(s.unnamed400___U2);
+    s.tmp_0 = r0 = s.unnamed477___U3;
+    r0 = pxsim_Array__length(s.unnamed476___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed400___U2, s.unnamed401___U3);
+    r0 = pxsim_Array__getAt(s.unnamed476___U2, s.unnamed477___U3);
     s.locval___10422 = (r0);
     s.tmp_2 = tiles_setTileAt__P2782_mk(s);
     s.tmp_2.arg0 = s.locval___10422;
@@ -37740,11 +37740,11 @@ switch (step) {
     s.callLocIdx = 427; s.pc = 14; return s.tmp_2;
   case 14:
     r0 = s.retval;
-    r0 = (s.unnamed401___U3 + 1);
-    s.unnamed401___U3 = (r0);
+    r0 = (s.unnamed477___U3 + 1);
+    s.unnamed477___U3 = (r0);
     { step = 5; continue; }
   case 6:
-    s.unnamed400___U2 = (undefined);
+    s.unnamed476___U2 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -37775,8 +37775,8 @@ function RenderTile__P5288_mk(s) {
   tmp_16: undefined,
   index___10363: undefined,
   locval___10422: undefined,
-  unnamed400___U2: undefined,
-  unnamed401___U3: undefined,
+  unnamed476___U2: undefined,
+  unnamed477___U3: undefined,
 } }
 
 const _hex10429 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
@@ -39961,8 +39961,8 @@ switch (step) {
   case 0:
 
     s.locval___9186 = undefined;
-    s.unnamed390___U1 = undefined;
-    s.unnamed391___U2 = undefined;
+    s.unnamed466___U1 = undefined;
+    s.unnamed467___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -39970,15 +39970,15 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.locval___9186 = (undefined);
-    s.unnamed390___U1 = (s.arg0);
-    s.unnamed391___U2 = (0);
+    s.unnamed466___U1 = (s.arg0);
+    s.unnamed467___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed391___U2;
-    r0 = pxsim_Array__length(s.unnamed390___U1);
+    s.tmp_0 = r0 = s.unnamed467___U2;
+    r0 = pxsim_Array__length(s.unnamed466___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed390___U1, s.unnamed391___U2);
+    r0 = pxsim_Array__getAt(s.unnamed466___U1, s.unnamed467___U2);
     s.locval___9186 = (r0);
     r0 = s.locval___9186.fields["_col"];
     s.tmp_3 = r0;
@@ -40001,11 +40001,11 @@ switch (step) {
     { step = 7; continue; }
   case 4:
   case 5:
-    r0 = (s.unnamed391___U2 + 1);
-    s.unnamed391___U2 = (r0);
+    r0 = (s.unnamed467___U2 + 1);
+    s.unnamed467___U2 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed390___U1 = (undefined);
+    s.unnamed466___U1 = (undefined);
     r0 = undefined;
   case 7:
     return leave(s, r0)
@@ -40025,8 +40025,8 @@ function getLocationVal__P5262_mk(s) {
   tmp_4: undefined,
   tmp_5: undefined,
   locval___9186: undefined,
-  unnamed390___U1: undefined,
-  unnamed391___U2: undefined,
+  unnamed466___U1: undefined,
+  unnamed467___U2: undefined,
   arg0: undefined,
   arg1: undefined,
   arg2: undefined,
@@ -41371,14 +41371,14 @@ switch (step) {
   case 0:
 
     s.value___11125 = undefined;
-    s.unnamed408___U1 = undefined;
-    s.unnamed409___U2 = undefined;
+    s.unnamed484___U1 = undefined;
+    s.unnamed485___U2 = undefined;
     s.value2___11135 = undefined;
-    s.unnamed410___U4 = undefined;
-    s.unnamed411___U5 = undefined;
+    s.unnamed486___U4 = undefined;
+    s.unnamed487___U5 = undefined;
     s.value3___11202 = undefined;
-    s.unnamed412___U7 = undefined;
-    s.unnamed413___U8 = undefined;
+    s.unnamed488___U7 = undefined;
+    s.unnamed489___U8 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -41405,15 +41405,15 @@ switch (step) {
     s.callLocIdx = 582; s.pc = 25; return s.tmp_0;
   case 25:
     r0 = s.retval;
-    s.unnamed408___U1 = (r0);
-    s.unnamed409___U2 = (0);
+    s.unnamed484___U1 = (r0);
+    s.unnamed485___U2 = (0);
   case 2:
-    s.tmp_0 = r0 = s.unnamed409___U2;
-    r0 = pxsim_Array__length(s.unnamed408___U1);
+    s.tmp_0 = r0 = s.unnamed485___U2;
+    r0 = pxsim_Array__length(s.unnamed484___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 3; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed408___U1, s.unnamed409___U2);
+    r0 = pxsim_Array__getAt(s.unnamed484___U1, s.unnamed485___U2);
     s.value___11125 = (r0);
     s.tmp_2 = tiles_setTileAt__P2782_mk(s);
     s.tmp_2.arg0 = s.value___11125;
@@ -41426,11 +41426,11 @@ switch (step) {
     s.callLocIdx = 584; s.pc = 27; return s.tmp_2;
   case 27:
     r0 = s.retval;
-    r0 = (s.unnamed409___U2 + 1);
-    s.unnamed409___U2 = (r0);
+    r0 = (s.unnamed485___U2 + 1);
+    s.unnamed485___U2 = (r0);
     { step = 2; continue; }
   case 3:
-    s.unnamed408___U1 = (undefined);
+    s.unnamed484___U1 = (undefined);
     s.value2___11135 = (undefined);
     s.tmp_0 = tiles_getTilesByType__P2792_mk(s);
     s.tmp_1 = helpers_getTileByName__P3371_mk(s);
@@ -41442,15 +41442,15 @@ switch (step) {
     s.callLocIdx = 586; s.pc = 29; return s.tmp_0;
   case 29:
     r0 = s.retval;
-    s.unnamed410___U4 = (r0);
-    s.unnamed411___U5 = (0);
+    s.unnamed486___U4 = (r0);
+    s.unnamed487___U5 = (0);
   case 4:
-    s.tmp_0 = r0 = s.unnamed411___U5;
-    r0 = pxsim_Array__length(s.unnamed410___U4);
+    s.tmp_0 = r0 = s.unnamed487___U5;
+    r0 = pxsim_Array__length(s.unnamed486___U4);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 21; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed410___U4, s.unnamed411___U5);
+    r0 = pxsim_Array__getAt(s.unnamed486___U4, s.unnamed487___U5);
     s.value2___11135 = (r0);
     s.tmp_3 = Math_percentChance__P3089_mk(s);
     r0 = pxsim.Math_.randomRange(50, 90);
@@ -41590,11 +41590,11 @@ switch (step) {
   case 18:
   case 19:
   case 20:
-    r0 = (s.unnamed411___U5 + 1);
-    s.unnamed411___U5 = (r0);
+    r0 = (s.unnamed487___U5 + 1);
+    s.unnamed487___U5 = (r0);
     { step = 4; continue; }
   case 21:
-    s.unnamed410___U4 = (undefined);
+    s.unnamed486___U4 = (undefined);
     r0 = (globals.I___5320 + 1);
     globals.I___5320 = (r0);
     { step = 1; continue; }
@@ -41610,15 +41610,15 @@ switch (step) {
     s.callLocIdx = 605; s.pc = 44; return s.tmp_0;
   case 44:
     r0 = s.retval;
-    s.unnamed412___U7 = (r0);
-    s.unnamed413___U8 = (0);
+    s.unnamed488___U7 = (r0);
+    s.unnamed489___U8 = (0);
   case 23:
-    s.tmp_0 = r0 = s.unnamed413___U8;
-    r0 = pxsim_Array__length(s.unnamed412___U7);
+    s.tmp_0 = r0 = s.unnamed489___U8;
+    r0 = pxsim_Array__length(s.unnamed488___U7);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 24; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed412___U7, s.unnamed413___U8);
+    r0 = pxsim_Array__getAt(s.unnamed488___U7, s.unnamed489___U8);
     s.value3___11202 = (r0);
     s.tmp_2 = tiles_setTileAt__P2782_mk(s);
     s.tmp_2.arg0 = s.value3___11202;
@@ -41631,11 +41631,11 @@ switch (step) {
     s.callLocIdx = 607; s.pc = 46; return s.tmp_2;
   case 46:
     r0 = s.retval;
-    r0 = (s.unnamed413___U8 + 1);
-    s.unnamed413___U8 = (r0);
+    r0 = (s.unnamed489___U8 + 1);
+    s.unnamed489___U8 = (r0);
     { step = 23; continue; }
   case 24:
-    s.unnamed412___U7 = (undefined);
+    s.unnamed488___U7 = (undefined);
     r0 = (s.arg2 - 1);
     globals.OffCol___5330 = (r0);
     r0 = (s.arg3 - 1);
@@ -41663,14 +41663,14 @@ function Generate_new_map__P5301_mk(s) {
   tmp_5: undefined,
   tmp_6: undefined,
   value___11125: undefined,
-  unnamed408___U1: undefined,
-  unnamed409___U2: undefined,
+  unnamed484___U1: undefined,
+  unnamed485___U2: undefined,
   value2___11135: undefined,
-  unnamed410___U4: undefined,
-  unnamed411___U5: undefined,
+  unnamed486___U4: undefined,
+  unnamed487___U5: undefined,
   value3___11202: undefined,
-  unnamed412___U7: undefined,
-  unnamed413___U8: undefined,
+  unnamed488___U7: undefined,
+  unnamed489___U8: undefined,
   arg0: undefined,
   arg1: undefined,
   arg2: undefined,
@@ -98912,5 +98912,5 @@ const music_PlayableState__C5655_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency8___5383","tile18___5400","tile19___5401","tile20___5402","tile21___5403","tile22___5404","tile23___5405","tile25___5407","tile26___5408","tile27___5409","tile28___5410","tile29___5411","tile30___5412","tile24___5406","tile9___5391","tile10___5392","tile11___5393","tile12___5394","tile13___5395","tile14___5396","tile15___5397","tile5___5387","tile6___5388","tile7___5389","tile8___5390","tile1___5419","tile2___5384","tile3___5385","tile33___5436","tile37___5421","tile34___5422","tile35___5423","tile36___5424","tile38___5425","tile39___5426","tile40___5427","tile41___5428","tile42___5429","tile43___5430","tile44___5431","tile45___5432","tile46___5433","tile47___5434","tile48___5435","transparency16___5382","tile4___5386","tile16___5398","tile17___5399","tile32___5413","tile31___5414","tile49___5415","tile50___5416","tile52___5417","tile53___5418","tile51___5420","locationDataDict___5437","Playerhitbox___5254","Item___5255","NumResult___5257","AnyResult___5259","StartSetup___5375","Start___5376","select_maximum___5369","InGame___5374","J___5338","PlayerDice___5353","PlayerDiceStart___5354","Trun___5359","My_player___5364","LeaderBoardColorList___5337","GetPlayed___5341","Playersprite___5379","StGame___5377","WinIntro___5336","index___5322","LeaderBoardRankList___5327","LeaderBoardList___5340","Img___5323","PlayerIconList___5326","TextNameSprite___5349","Str___5351","Colour___5350","ColorList___5361","Action___5363","TileMapGridList___5362","Max_player___5370","Max_energy___5335","gx___5315","OffCol___5330","gy___5314","OffRow___5329","gidx___5313","MapCol___5342","SoundList___5328","MovePin___5333","PlayerPatical___5360","Player_location___5357","Player_rotation___5378","Item_sprite___5366","Count___5312","TextStateSprite___5321","DragPlayer___5358","Pidx___5356","Render___5373","dir_frame___5372","CurrentMaxPlayer___5371","OpenMenu___5368","TileMapFrame___5318","PlayerImage___5317","Hitbox_rotation___5316","MapRow___5332","TileHole___5331","Map_asset___5348","Tile___5345","TileGP___5344","MapGroup___5346","Recipe___5343","MapRecipe___5347","EdgeTile___5334","DiceVal___5355","PlacingPlayer___5339","LocationPlaced___5365","PlacingItem___5367","I___5320","Tile_gen___5319","MenuSelect___5324","MenuSprite___5352","ColorFrameList___5325"])
 
-return _main___P37611
+return _main___P37828
 })
